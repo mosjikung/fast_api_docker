@@ -9,6 +9,7 @@ COPY ./requirment.txt /code/requirment.txt
 RUN pip install --no-cache-dir --upgrade -r /code/requirment.txt
 
 #
+COPY . .
 
 EXPOSE 8000
 # 

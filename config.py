@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 # Database configuration connect to postgresql
 #
-DATABASE_URL = "postgresql://postgres:root@localhost/popcat"
+DATABASE_URL = "postgresql://postgres:12345@pegasas_fast/popcat"
 
 engine = create_engine(
     DATABASE_URL,
